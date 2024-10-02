@@ -7,7 +7,7 @@ body{
     width: 940px;
 }
 h1{
-    background-image: url(img/sobre-background.jpg);
+    background-image: url(../primeira_pagina_material/img/sobre-background.jpg);
     padding: 10px;
 }
 h2{
