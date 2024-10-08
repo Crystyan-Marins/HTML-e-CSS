@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>--Formulário Contato--</title>
+    <link rel="stylesheet" href="css/ContatoEstilo.css"  media="all" />
+	 <link rel="stylesheet" href="css/estilos.css">
+ 
+</head>
+<body>
+        <header class="container">
+             <h1><img src="img/logo1.png" alt="Logo da Phone Store" width="300"></h1>
+
+             <p class="sacola">
+                 Nenhum item na sacola de compras
+             </p>
+
+             <nav class="menu-opcoes">
+                 <ul>
+                     <li><a href="index.html">Página Inicial</a></li>
+					 <li><a href="#">Sua Conta</a></li>
+                     <li><a href="#">Lista de Desejos</a></li>
+                     <li><a href="#">Cartão Fidelidade</a></li>
+                     <li><a href="sobre.html">Sobre</a></li>
+                     <li><a href="#">Ajuda</a></li>
+					 <li><a href="ContatoForm.html"></a></li>
+                 </ul>
+             </nav>
+         </header>
+    <form name="meu_form">
+ 
+        <h1>Entre em contato</h1>
+ 
+        <p class="nome">
+            <label for="nome">Nome</label>
+			<input type="text" id="nomeid" placeholder="digite seu nome" required="required" name="nome" maxlength="20" minlength="8"/>
+            
+        </p>
+        <p class="fone">
+            <input type="text" id="foneid" placeholder="(xx)xx-xx-xx-xx" name="fone" />
+            <label for="fone">Fone</label>
+ 
+        </p>
+        <p>
+            <input type="email" id="emailid" placeholder="xxxxxxxx@mail.com" name="email" />
+            <label for="email">Email</label>
+        </p>
+        <p>
+            <textarea placeholder="Deixe sua opnião"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+	<footer>
+			<div class="container">
+				<img src="img/logo-rodape1.png" alt="Logo da Phone Store" id="imgf">
+				<ul class="social">
+					<li><a href="http://facebook.com/phonestore">Facebook</a></li>
+					<li><a href="http://twitter.com/phonestore">Twitter</a></li>
+					<li><a href="http://plus.google.com/phonestore">Google+</a></li>
+				</ul>
+			</div>
+		</footer>
+</body>
+</html>
